@@ -25,7 +25,7 @@ steps {
 }
 stage ( ' run1 ') {
 steps {
-        sh ' bash -x ${workspace}/ownfunc.sh'
+        sh ' bash -x ${workspace}/ownfunc.sh '
 }
 }
 }
