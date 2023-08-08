@@ -14,7 +14,7 @@ steps  {
 }
 stage (' deploy'){
 steps {
-    sh 'echo "depoly is going to happen"'
+    sh ' echo "depoly is going to happen"'
 }
 }
 stage (' run '){
