@@ -19,7 +19,7 @@ steps {
 }
 stage (' run '){
 steps {
-        sh ' bash -x ${WORKSPACE}/script.sh '
+        sh ' bash -x ${WORKSPACE}/searchfile.sh '
 
 }
 }
