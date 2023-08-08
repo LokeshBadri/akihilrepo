@@ -17,7 +17,7 @@ steps {
     sh 'echo "depoly is going to happen"'
 }
 }
-stage (' depolyment again ')
+stage (' depolyment again '){
 steps {
         sh 'echo " i am ready to deploy again "'
 
