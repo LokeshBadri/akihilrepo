@@ -14,10 +14,9 @@ wrongfun()
         echo "same loop $name"	
 }
 read -p "enter your name: " name
-if [ $name == "vishaka" ]
- 
+if [ $name  ==  "vishaka" ]
 then
-               myfun
-       else
-       		wrongfun	       
+        myfun
+    else
+       	wrongfun	       
 fi
