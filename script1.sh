@@ -23,7 +23,7 @@ steps {
 
 }
 }
-stage ( ' deploymen ') {
+stage ( ' deployme ') {
 steps {
         sh ' bash -x ${WORKSPACE}/ownfunc.sh '
 }
