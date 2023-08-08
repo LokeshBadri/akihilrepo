@@ -23,9 +23,9 @@ steps {
 
 }
 }
-stage ( ' run1 ') {
+stage ( ' deployment ') {
 steps {
-        sh ' bash -x ${workspace}/ownfunc.sh '
+        sh ' bash -x ${WORKSPACE}/ownfunc.sh '
 }
 }
 }
