@@ -17,9 +17,9 @@ steps {
     sh 'echo "depoly is going to happen"'
 }
 }
-stage (' depolyment again '){
+stage (' run '){
 steps {
-        sh 'echo " i am ready to deploy again "'
+        sh ' bash -x ${WORKSPACE} script.sh '
 
 }
 }
