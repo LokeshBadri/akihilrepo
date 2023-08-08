@@ -2,7 +2,7 @@
 
 myfun()
 {
-for i in { 1..20 }
+for i in {1..20}
 
 do
     	echo "this $name is diffrent from loop $i"
